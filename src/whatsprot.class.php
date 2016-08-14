@@ -284,7 +284,7 @@ class WhatsProt
             }
         }
         $login = new Login($this, $this->password);
-        $login->doLogin();
+        return $login->doLogin();
     }
 
     /**
